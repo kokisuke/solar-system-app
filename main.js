@@ -61,14 +61,14 @@ const sun = new THREE.Mesh(sunGeometry, sunMaterial);
 scene.add(sun);
 
 const planetsData = [
-    { name: 'Mercury', color: 0xff00ff, radius: 0.38, distance: 20, speed: 0.0025 }, // マゼンタ
-    { name: 'Venus', color: 0x00ffff, radius: 0.95, distance: 30, speed: 0.0018 }, // シアン
-    { name: 'Earth', color: 0x00ff00, radius: 1, distance: 40, speed: 0.0015 }, // ネオングリーン
-    { name: 'Mars', color: 0xff0000, radius: 0.53, distance: 55, speed: 0.0012 }, // ネオンレッド
-    { name: 'Jupiter', color: 0xffff00, radius: 4, distance: 80, speed: 0.0008 }, // ネオンイエロー
-    { name: 'Saturn', color: 0xffa500, radius: 3.5, distance: 110, speed: 0.0006, hasRing: true }, // ネオンオレンジ
-    { name: 'Uranus', color: 0x00aaff, radius: 2, distance: 140, speed: 0.0004 }, // ネオンブルー
-    { name: 'Neptune', color: 0x800080, radius: 1.9, distance: 170, speed: 0.0003 }, // パープル
+    { name: 'Mercury', color: 0xff00ff, radius: 0.38, distance: 20, speed: 0.0416 }, // マゼンタ
+    { name: 'Venus', color: 0x00ffff, radius: 0.95, distance: 30, speed: 0.0161 }, // シアン
+    { name: 'Earth', color: 0x00ff00, radius: 1, distance: 40, speed: 0.01 }, // ネオングリーン
+    { name: 'Mars', color: 0xff0000, radius: 0.53, distance: 55, speed: 0.0053 }, // ネオンレッド
+    { name: 'Jupiter', color: 0xffff00, radius: 4, distance: 80, speed: 0.00084 }, // ネオンイエロー
+    { name: 'Saturn', color: 0xffa500, radius: 3.5, distance: 110, speed: 0.00034, hasRing: true }, // ネオンオレンジ
+    { name: 'Uranus', color: 0x00aaff, radius: 2, distance: 140, speed: 0.000119 }, // ネオンブルー
+    { name: 'Neptune', color: 0x800080, radius: 1.9, distance: 170, speed: 0.00006 }, // パープル
 ];
 
 const planets = [];
